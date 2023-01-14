@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Программирование в среде JavaScript</title>
+    
+</head>
+<input value="0.5 * 2 + 7 + -3*2"><input type="button" value="Посчитать" onclick="var str=this.previousSibling.value; if(str && !/[^\s\d\(\)\.\+\*\/-]/.test(str)) alert(eval(str)); else alert('Введите многочлен!')">
+
+<body>
+	<header>
+		<h1 align = "center">Операции в JavaScript</h1>
+	</header>
+
+	<footer>
+		<h3 align = "center"><a href="https://vk.com/pechora_proger" target="blank">Добро пожаловать на pechora_PROger</a></h3>
+	</footer>
+
+	<script>
+
+let x = 6;
+let y = 21;
+ let result = --x % 2 + 5 - -(--y) / x++ || 1;
+ let result2 = 1 || --x % 2 + 5 - -(--y) / x++;
+ console.log(result)
+ console.log(result2)
+	</script>
+
+</body>
+</html>
